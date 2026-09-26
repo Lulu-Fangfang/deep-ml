@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T12:13:19.656Z",
+  "generated_at": "2026-09-26T12:17:57.735Z",
   "items": {
     "problem:328": {
       "kind": "problem",
@@ -292,6 +292,17 @@
       "path": "math/0034-least-squares-and-the-normal-equations",
       "first_solved_at": "2026-09-26T12:13:18.223Z",
       "last_pushed_at": "2026-09-26T12:13:18.223Z"
+    },
+    "math:17": {
+      "kind": "math",
+      "id": "17",
+      "title": "Covariance and Correlation",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/17",
+      "path": "math/0017-covariance-and-correlation",
+      "first_solved_at": "2026-09-26T12:17:56.604Z",
+      "last_pushed_at": "2026-09-26T12:17:56.604Z"
     }
   }
 }
