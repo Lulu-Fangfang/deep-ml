@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:49:34.679Z",
+  "generated_at": "2026-09-26T12:13:19.656Z",
   "items": {
     "problem:328": {
       "kind": "problem",
@@ -281,6 +281,17 @@
       "path": "math/0014-orthogonality-and-projections",
       "first_solved_at": "2026-09-26T10:49:34.756Z",
       "last_pushed_at": "2026-09-26T10:49:34.756Z"
+    },
+    "math:34": {
+      "kind": "math",
+      "id": "34",
+      "title": "Least Squares and the Normal Equations",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/34",
+      "path": "math/0034-least-squares-and-the-normal-equations",
+      "first_solved_at": "2026-09-26T12:13:18.223Z",
+      "last_pushed_at": "2026-09-26T12:13:18.223Z"
     }
   }
 }
