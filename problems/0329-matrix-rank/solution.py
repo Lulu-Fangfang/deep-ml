@@ -15,5 +15,21 @@ def matrix_rank(A: np.ndarray, tol: float = 1e-10) -> int:
     B = np.array(A, dtype=float, copy = True)
     m, n = B.shape
     rank = 0
+    for col in range(n):
+        if rank == m:
+            break
+        
+        pivot = rank + np.argmax(np.abs(B[rank: ,col]))
+        if abs(B[pivot, col]) <= tol:
+            continue
+        
+        B[[rank, pivot]] = B[[pivot, rank]]
+        for row in range(rank + 1, m):
+            factor = B[row, col] / B[rank, col]
+            B[row, col:] -= factor * B[rank, col:]
+        rank += 1
+
+    return rank
+
+
     
-    return np.linalg.matrix_rank(A)
