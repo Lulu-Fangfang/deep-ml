@@ -12,5 +12,8 @@ def matrix_rank(A: np.ndarray, tol: float = 1e-10) -> int:
         The rank of the matrix (integer)
     """
     # Your code here
-    return np.linalg.matrix_rank(A)
+    B = np.array(A, dtype=float, copy = True)
+    m, n = B.shape
+    rank = 0
     
+    return np.linalg.matrix_rank(A)
