@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T11:22:41.129Z",
+  "generated_at": "2026-09-28T01:52:50.590Z",
   "items": {
     "problem:328": {
       "kind": "problem",
@@ -407,6 +407,17 @@
       "last_pushed_at": "2026-09-27T11:22:40.392Z",
       "language": "python",
       "lines": 23
+    },
+    "math:2": {
+      "kind": "math",
+      "id": "2",
+      "title": "Multivariate Calculus",
+      "difficulty": "medium",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/2",
+      "path": "math/0002-multivariate-calculus",
+      "first_solved_at": "2026-09-28T01:52:47.726Z",
+      "last_pushed_at": "2026-09-28T01:52:47.726Z"
     }
   }
 }
