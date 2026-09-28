@@ -26,7 +26,7 @@ def numerical_gradient_check(f, x, analytical_grad, epsilon=1e-7):
         grads.append(float(g))
 
     error = (
-        np.linalg.norm(grads - analytical_grad) / (np.linalg.norm(grads) + np.linalg.norm(analytical_grad) + 1e-12)
+        np.linalg.norm(grads - analytical_grad) / (np.linalg.norm(grads) + np.linalg.norm(analytical_grad))
     )
     if error == 0:
         flag = True
