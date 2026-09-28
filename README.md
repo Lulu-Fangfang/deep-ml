@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**44** solved · 28 problems · 0 labs · 16 math
+**45** solved · 29 problems · 0 labs · 16 math
 
 ![Coverage](./coverage.svg)
 
@@ -40,6 +40,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-09-24 | [solution](problems/0009-matrix-times-matrix) |
 | [Partial Derivatives of Multivariable Functions](https://www.deep-ml.com/problems/215) | medium | 2026-09-28 | [solution](problems/0215-partial-derivatives-of-multivariable-functions) |
 | [Quotient Rule for Derivatives](https://www.deep-ml.com/problems/312) | medium | 2026-09-24 | [solution](problems/0312-quotient-rule-for-derivatives) |
+| [Single Neuron with Backpropagation](https://www.deep-ml.com/problems/25) | medium | 2026-09-28 | [solution](problems/0025-single-neuron-with-backpropagation) |
 
 ## Math
 
