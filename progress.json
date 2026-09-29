@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:24:55.539Z",
+  "generated_at": "2026-09-29T01:20:43.350Z",
   "items": {
     "problem:328": {
       "kind": "problem",
@@ -599,6 +599,17 @@
       "path": "math/0022-common-distributions-ii-normal-poisson-exponential",
       "first_solved_at": "2026-09-29T00:24:52.157Z",
       "last_pushed_at": "2026-09-29T00:24:52.157Z"
+    },
+    "math:36": {
+      "kind": "math",
+      "id": "36",
+      "title": "Multivariate Gaussians",
+      "difficulty": "medium",
+      "category": "Probability and Statistics for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/36",
+      "path": "math/0036-multivariate-gaussians",
+      "first_solved_at": "2026-09-29T01:20:39.502Z",
+      "last_pushed_at": "2026-09-29T01:20:39.502Z"
     }
   }
 }
