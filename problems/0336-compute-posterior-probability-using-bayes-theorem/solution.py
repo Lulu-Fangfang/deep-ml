@@ -9,9 +9,9 @@ def bayes_theorem(priors: list[float], likelihoods: list[float]) -> list[float]:
 	Returns:
 		Posterior probabilities P(H_i|E) for each hypothesis
 	"""
-	if len(priors) == 2:
-		postpriors = (priors[0] * likelihoods[0])/ (priors[0] * likelihoods[0] + priors[1] * likelihoods[1])
-	elif len(priors) == 3:
-		postpriors = (priors[0] * likelihoods[0])/ (priors[0] * likelihoods[0] + priors[1] * likelihoods[1] + priors[1] * likelihoods[1])
-		return postpriors, ((1 - postpriors)/2),((1 - postpriors)/2) 
-	return postpriors, (1 - postpriors)
+	weighted = [p * l for p, l in zip(priors, likelihoods)]
+	total = sum(weighted)
+
+	if total == 0:
+		return -1
+	return tuple(value / total for value in weighted)
