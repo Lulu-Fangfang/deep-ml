@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:19:33.618Z",
+  "generated_at": "2026-09-29T02:31:06.130Z",
   "items": {
     "problem:328": {
       "kind": "problem",
@@ -645,6 +645,19 @@
       "path": "problems/0180-conditional-probability-from-joint-distribution",
       "first_solved_at": "2026-09-29T02:19:31.476Z",
       "last_pushed_at": "2026-09-29T02:19:31.476Z",
+      "language": "python",
+      "lines": 18
+    },
+    "problem:336": {
+      "kind": "problem",
+      "id": "336",
+      "title": "Compute Posterior Probability using Bayes' Theorem",
+      "difficulty": "easy",
+      "category": "Probability",
+      "url": "https://www.deep-ml.com/problems/336",
+      "path": "problems/0336-compute-posterior-probability-using-bayes-theorem",
+      "first_solved_at": "2026-09-29T02:31:03.766Z",
+      "last_pushed_at": "2026-09-29T02:31:03.766Z",
       "language": "python",
       "lines": 18
     }
