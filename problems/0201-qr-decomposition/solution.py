@@ -12,12 +12,12 @@ def qr_decomposition(A: list[list[float]]) -> tuple[list[list[float]], list[list
 	"""
 	A = np.asarray(A, dtype = float)
 
-	if A.ndim != 2:
-		return -1
+	# if A.ndim != 2:
+	# 	return -1
 
 	m, n = A.shape
-	if m < n:
-		return -1
+	# if m < n:
+	# 	return -1
 	
 	Q = np.zeros((m, n))
 	R = np.zeros((m, n))
