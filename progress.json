@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:46:18.316Z",
+  "generated_at": "2026-10-07T08:59:37.634Z",
   "items": {
     "problem:328": {
       "kind": "problem",
@@ -845,6 +845,19 @@
       "last_pushed_at": "2026-10-07T08:46:16.437Z",
       "language": "python",
       "lines": 58
+    },
+    "problem:311": {
+      "kind": "problem",
+      "id": "311",
+      "title": "Classify Critical Points Using Hessian Eigenvalues",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/311",
+      "path": "problems/0311-classify-critical-points-using-hessian-eigenvalues",
+      "first_solved_at": "2026-10-07T08:59:35.676Z",
+      "last_pushed_at": "2026-10-07T08:59:35.676Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
