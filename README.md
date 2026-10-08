@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**73** solved · 44 problems · 0 labs · 29 math
+**74** solved · 44 problems · 0 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -76,6 +76,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Inverse and Rank](https://www.deep-ml.com/math-problems/12) | medium | 2026-09-26 | [solution](math/0012-inverse-and-rank) |
 | [Law of Large Numbers and Central Limit Theorem](https://www.deep-ml.com/math-problems/23) | medium | 2026-09-29 | [solution](math/0023-law-of-large-numbers-and-central-limit-theorem) |
 | [Least Squares and the Normal Equations](https://www.deep-ml.com/math-problems/34) | medium | 2026-09-26 | [solution](math/0034-least-squares-and-the-normal-equations) |
+| [Log-Likelihood Gradients](https://www.deep-ml.com/math-problems/38) | medium | 2026-10-08 | [solution](math/0038-log-likelihood-gradients) |
 | [Matrix Calculus Identities](https://www.deep-ml.com/math-problems/35) | medium | 2026-09-28 | [solution](math/0035-matrix-calculus-identities) |
 | [Multivariate Calculus](https://www.deep-ml.com/math-problems/2) | medium | 2026-09-28 | [solution](math/0002-multivariate-calculus) |
 | [Multivariate Gaussians](https://www.deep-ml.com/math-problems/36) | medium | 2026-09-29 | [solution](math/0036-multivariate-gaussians) |
