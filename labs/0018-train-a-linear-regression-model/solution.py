@@ -29,5 +29,4 @@ def train(X, y, W, b):
 
     if b_new.ndim == 0:
         b_new = b_new.item()
-
     return W_new, b_new
