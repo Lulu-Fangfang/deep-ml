@@ -1,7 +1,7 @@
 import numpy as np
 
 def feature_scaling(data: np.ndarray) -> (np.ndarray, np.ndarray):
-    x = np.asarray(data, dtype=float)
+    x = np.asarray(data)
 
     mean = x.mean(axis = 0)
     std = x.std(axis = 0, ddof = 0)
@@ -11,7 +11,6 @@ def feature_scaling(data: np.ndarray) -> (np.ndarray, np.ndarray):
 
     standardized = (x - mean) / np.where(std == 0, 1.0, std)
 
-    normalized = (x - col_min) / np.where(col_range == 0, 1.0, col_range)
+    normalized = (x - col_min) / np.where(col_range  == 0, 1.0, col_range)
 
-    # return round(standardized, 4), np.round(normalized, 4)
-    return standardized, normalized
+    return np.round(standardized, 4), np.round(normalized, 4)
