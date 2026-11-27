@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**119** solved · 79 problems · 3 labs · 37 math
+**120** solved · 80 problems · 3 labs · 37 math
 
 ![Coverage](./coverage.svg)
 
@@ -91,6 +91,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [QR Decomposition](https://www.deep-ml.com/problems/201) | hard | 2026-10-06 | [solution](problems/0201-qr-decomposition) |
 | [Singular Value Decomposition (SVD) of 2x2 Matrix](https://www.deep-ml.com/problems/12) | hard | 2026-09-29 | [solution](problems/0012-singular-value-decomposition-svd-of-2x2-matrix) |
 | [SVD of a 2x2 Matrix](https://www.deep-ml.com/problems/28) | hard | 2026-10-10 | [solution](problems/0028-svd-of-a-2x2-matrix) |
+| [Train Logistic Regression with Gradient Descent](https://www.deep-ml.com/problems/106) | hard | 2026-11-27 | [solution](problems/0106-train-logistic-regression-with-gradient-descent) |
 
 ## Labs
 
