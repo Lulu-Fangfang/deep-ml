@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**116** solved · 77 problems · 3 labs · 36 math
+**117** solved · 78 problems · 3 labs · 36 math
 
 ![Coverage](./coverage.svg)
 
@@ -16,6 +16,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Calculate Conditional Probability from Data](https://www.deep-ml.com/problems/168) | easy | 2026-09-29 | [solution](problems/0168-calculate-conditional-probability-from-data) |
 | [Calculate Cosine Similarity Between Vectors](https://www.deep-ml.com/problems/76) | easy | 2026-09-24 | [solution](problems/0076-calculate-cosine-similarity-between-vectors) |
 | [Calculate Covariance Matrix](https://www.deep-ml.com/problems/10) | easy | 2026-09-27 | [solution](problems/0010-calculate-covariance-matrix) |
+| [Calculate Mean Absolute Error (MAE)](https://www.deep-ml.com/problems/93) | easy | 2026-11-27 | [solution](problems/0093-calculate-mean-absolute-error-mae) |
 | [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4) | easy | 2026-09-26 | [solution](problems/0004-calculate-mean-by-row-or-column) |
 | [Calculate R-squared for Regression Analysis](https://www.deep-ml.com/problems/69) | easy | 2026-11-27 | [solution](problems/0069-calculate-r-squared-for-regression-analysis) |
 | [Calculate Root Mean Square Error (RMSE)](https://www.deep-ml.com/problems/71) | easy | 2026-11-27 | [solution](problems/0071-calculate-root-mean-square-error-rmse) |
