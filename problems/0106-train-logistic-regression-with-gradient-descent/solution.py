@@ -16,8 +16,8 @@ def train_logreg(X: np.ndarray, y: np.ndarray, learning_rate: float, iterations:
     for i in range(iterations):
         y_pred = (X @ theta)
         prediction = sigmoid(y_pred)
-        p = np.clip(prediction, 1e-15, 1 - 1e-15)
-        loss_cross_entropy = -np.sum(y * np.log(p) + (1-y) * np.log1p(-p))
+        # p = np.clip(prediction, 1e-15, 1 - 1e-15)
+        loss_cross_entropy = -np.sum(y * np.log(prediction) + (1-y) * np.log1p(-prediction))
         losses = np.append(losses, loss_cross_entropy)
         errors = prediction - y
 
